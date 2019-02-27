@@ -56,14 +56,14 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  # Iterate through the hash and return the average 
+  # Iterate through the hash and return the average
   #age of all of the contestants for that season
-  age = 0 
-  count = 0 
+  age = 0
+  count = 0
   data[season].each do |hash|
     hash.each do |key, value|
       if key == "age"
         count += 1
         age += v.to_f
-  
+
 end
