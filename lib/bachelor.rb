@@ -22,7 +22,6 @@ def get_contestant_name(data, occupation)
       end
     end
   end
-  # code here	  # code here
 end
 
 
