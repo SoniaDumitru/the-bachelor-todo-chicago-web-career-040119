@@ -28,7 +28,7 @@ end
 def count_contestants_by_hometown(data, hometown)
   #This method should return a counter of the number
   #of contestants who are from that hometown.
-
+   
 end
 
 def get_occupation(data, hometown)
